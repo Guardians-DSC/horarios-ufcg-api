@@ -1,4 +1,4 @@
-# HorariosCC
+# API de HorariosCC
 
 ## Instalando localmente
 `git clone https://github.com/Guardians-DSC/HorariosCCApi && cd HorariosCCApi`  
