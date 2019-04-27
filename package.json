@@ -1,5 +1,5 @@
 {
-  "name": "HorariosCC",
+  "name": "HorariosCCApi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Guardians-DSC/HorariosCC.git"
+    "url": "git+https://github.com/Guardians-DSC/HorariosCCApi.git"
   },
   "keywords": [],
   "author": "Jadson Luan <jadsonluan1@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Guardians-DSC/HorariosCC/issues"
+    "url": "https://github.com/Guardians-DSC/HorariosCCApi/issues"
   },
-  "homepage": "https://github.com/Guardians-DSC/HorariosCC#readme",
+  "homepage": "https://github.com/Guardians-DSC/HorariosCCApi#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
