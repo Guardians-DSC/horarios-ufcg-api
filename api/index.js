@@ -22,7 +22,7 @@ app.get('/horarios/:dia', (req, res) => {
 
   if (dia && dias.includes(dia.toLowerCase())) {
     var horariosFiltrados = horarios.filter((horario) => {
-      if (horario.horario[0] === dias[dia]) return horario;
+      if (horario.horario.dia === dia) return horario;
     })
     res.status(200).send(horariosFiltrados);
   } else {
