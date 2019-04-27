@@ -1,7 +1,7 @@
 # HorariosCC
 
 ## Instalando localmente
-`git clone https://github.com/Guardians-DSC/HorariosCC && cd HorariosCC`  
+`git clone https://github.com/Guardians-DSC/HorariosCCApi && cd HorariosCCApi`  
 `npm install`  
 `npm start`  
 
