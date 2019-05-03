@@ -3,7 +3,7 @@
 ## Instalando localmente
 `git clone https://github.com/Guardians-DSC/HorariosCCApi && cd HorariosCCApi`  
 `npm install`  
-`npm start`  
+`npm run dev`  
 
 ## Endpoints
 A API estará rodando em http://localhost:3000  
