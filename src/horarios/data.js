@@ -1,18 +1,5 @@
-import fs from 'fs';
-
+import { readFile } from '../utils';
 const CSV_NAME = 'horario20191.csv';
-
-/**
- * Lê um arquivo .csv e o retorna como uma promise que possui a string com o conteudo do csv não formatado
- * @param {string} path Caminho para o arquivo .csv
- */
-const readFile = function(path) {
-    var fileContent;
-    return new Promise(function(resolve) {
-        fileContent = fs.readFileSync(path, {encoding: 'utf8'});
-        resolve(fileContent);
-    });
-}
 
 const dias = {
   s: 'segunda',
@@ -56,7 +43,7 @@ const convertToObject = (line) => {
 export default async function buildSchedule() {
   var horarios;
 
-  await readFile(`csv/${CSV_NAME}`).then(content => {
+  await readFile(`src/csv/${CSV_NAME}`).then(content => {
     var contentAsStringArray = content.split('\r\n');
     contentAsStringArray.shift(); // Remove header (first element)
     horarios = contentAsStringArray.map(convertToObject);
