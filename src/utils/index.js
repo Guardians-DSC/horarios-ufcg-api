@@ -10,8 +10,8 @@ const readFile = function(path) {
         fileContent = fs.readFileSync(path, {encoding: 'utf8'});
         resolve(fileContent);
     });
-}
+};
 
 export {
-  readFile,
-}
+    readFile,
+};

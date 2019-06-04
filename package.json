@@ -8,7 +8,9 @@
     "build-server": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-server",
     "start": "node ./build/index.js",
-    "dev": "nodemon --exec babel-node src/index.js"
+    "dev": "nodemon --exec babel-node src/index.js",
+    "check-lint": "eslint --ext .js --ignore-path .gitignore .",
+    "lint": "eslint --fix --ext .js --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.4",
+    "eslint": "^5.16.0",
     "nodemon": "^1.18.11"
   },
   "dependencies": {
