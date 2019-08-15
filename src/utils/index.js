@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 /**
  * Lê um arquivo .csv e o retorna como uma promise que possui a string com o conteudo do csv não formatado
