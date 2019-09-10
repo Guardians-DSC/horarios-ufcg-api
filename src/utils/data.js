@@ -1,4 +1,4 @@
-import { readFile } from '../utils';
+import { readFile } from '.';
 const CSV_NAME = 'horario20191.csv';
 
 const dias = {
