@@ -2,11 +2,11 @@ import '@babel/polyfill';
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
-import horariosRouter from './horarios/controller';
+import routes from './routes';
 
 const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors());
-app.use('/horarios', horariosRouter);
+app.use('/horarios', routes);
 app.listen(PORT);
