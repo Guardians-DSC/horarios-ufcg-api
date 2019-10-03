@@ -1,6 +1,16 @@
 import { readFile } from '.';
 const CSV_NAME = 'horario20191.csv';
 
+const sortByDisciplina = function(a, b) {
+    if (a.disciplina < b.disciplina) {
+        return -1;
+    }
+    if (a.disciplina > b.disciplina) {
+        return 1;
+    }
+    return 0;
+};
+
 const dias = {
     s: 'segunda',
     t: 'terca',
@@ -49,5 +59,5 @@ export default async function buildSchedule() {
         horarios = contentAsStringArray.map(convertToObject);
     });
 
-    return horarios;
+    return horarios.sort(sortByDisciplina);
 }
