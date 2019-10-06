@@ -36,6 +36,7 @@
     "cors": "^2.8.5",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "google-spreadsheet": "^2.0.8"
   }
 }
