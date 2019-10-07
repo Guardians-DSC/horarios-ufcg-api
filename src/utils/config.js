@@ -14,6 +14,10 @@ const formatData = (row) => {
     return [ [`${sala}`], [`${disciplina}`], [`${professor}`], [`${categoria}`], [`${periodoantigonovo}`], [`${horario}`]];
 };
 
+/**
+* Atualiza os dados do arquivo horario20191.csv com base nos dados, formatados, que recebe.
+* @param {[[[String]]]} data dados formatados para atualizacao o arquivo horario20191.csv 
+*/
 const writeCsv = async (data) => {
     const ws = fs.createWriteStream(CSV_PATH);
 
