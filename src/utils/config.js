@@ -8,6 +8,10 @@ const CSV_NAME = 'horario20191.csv';
 const CSV_PATH = path.resolve('.','src', 'csv', CSV_NAME);
 const doc = '1qvjWCOGm64BJByRmrIQADkGyc0mhxdiAsAUDrLFRQ7k';
 
+/**
+* Formata os dados de um linha da planilha online para o padrao: [[sala], [disicplina], [professor], [categoria], [periodoantigonovo], [horario]]
+* @param {Object} row dados formatados para atualizacao o arquivo horario20191.csv 
+*/
 const formatData = (row) => {
     const {sala, disciplina, professor, categoria, periodoantigonovo, horario} = row;
 
@@ -16,7 +20,7 @@ const formatData = (row) => {
 
 /**
 * Atualiza os dados do arquivo horario20191.csv com base nos dados, formatados, que recebe.
-* @param {[[[String]]]} data dados formatados para atualizacao o arquivo horario20191.csv 
+* @param {[[[String]]]} data array, com array, com array de dados formatados para atualizacao o arquivo horario20191.csv 
 */
 const writeCsv = async (data) => {
     const ws = fs.createWriteStream(CSV_PATH);
