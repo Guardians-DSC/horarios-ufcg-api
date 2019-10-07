@@ -6,7 +6,7 @@ import routes from './routes';
 import { CronJob } from 'cron';
 import updateCsv from './utils/config';
 
-const job = new CronJob('* */2 * * *', () => {
+const job = new CronJob('* * */2 * *', () => {
     updateCsv();
     console.log('Atualizando a planilha');
 });
