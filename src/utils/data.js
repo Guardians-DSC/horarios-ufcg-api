@@ -1,5 +1,8 @@
 import { readFile } from '.';
 const CSV_NAME = 'horario20191.csv';
+import routine from './config';
+
+routine();
 
 const sortByDisciplina = function(a, b) {
     if (a.disciplina < b.disciplina) {
@@ -30,7 +33,7 @@ const convertToObject = (line) => {
     var [ periodo_ppc_antigo, periodo_ppc_novo ] = periodo_composto.split(';');
     var dia = horario[0];
     var hora = horario.substring(1);
-  
+      
     return {
         sala,
         disciplina,
@@ -55,7 +58,6 @@ export default async function buildSchedule() {
 
     await readFile(`src/csv/${CSV_NAME}`).then(content => {
         var contentAsStringArray = content.split('\r\n');
-        contentAsStringArray.shift(); // Remove header (first element)
         horarios = contentAsStringArray.map(convertToObject);
     });
 
