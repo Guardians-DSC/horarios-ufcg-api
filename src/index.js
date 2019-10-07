@@ -8,7 +8,6 @@ import updateCsv from './utils/config';
 
 const job = new CronJob('* * */2 * *', () => {
     updateCsv();
-    console.log('Atualizando a planilha');
 });
 
 job.start();

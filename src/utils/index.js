@@ -1,6 +1,6 @@
 import fs from 'fs';
 import GoogleSpreadsheet from 'google-spreadsheet';
-import googleCredentials from '../crendentials/horariosufcg.json'
+import googleCredentials from '../crendentials/horariosufcg.json';
 import { promisify } from 'util';
 
 /**
