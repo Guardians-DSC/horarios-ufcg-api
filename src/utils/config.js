@@ -24,8 +24,9 @@ const writeCsv = async (data) => {
         )
         .pipe(ws);
 };
-
-
+/**
+* Atualiza o arquivo csv usado como bando de dados da aplicação, com base na planilha google spreadsheet online.
+*/
 export default async function updateCsv() {
     const sheet = await readSheet(doc);
     const data = sheet.map(formatData);
