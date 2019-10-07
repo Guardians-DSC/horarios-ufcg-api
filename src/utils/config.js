@@ -10,7 +10,7 @@ const doc = '1qvjWCOGm64BJByRmrIQADkGyc0mhxdiAsAUDrLFRQ7k';
 
 /**
 * Formata os dados de um linha da planilha online para o padrao: [[sala], [disicplina], [professor], [categoria], [periodoantigonovo], [horario]]
-* @param {Object} row dados formatados para atualizacao o arquivo horario20191.csv 
+* @param {Object} row dados brutos recebidos da planilha
 */
 const formatData = (row) => {
     const {sala, disciplina, professor, categoria, periodoantigonovo, horario} = row;
