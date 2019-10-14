@@ -1,8 +1,8 @@
-# API de horarios-cc-api
+# API de horarios-ufcg
 
 ## Instalando localmente
 ```
-git clone https://github.com/Guardians-DSC/horarios-cc-api && cd horarios-cc-api
+git clone https://github.com/Guardians-DSC/horarios-ufcg-api && cd horarios-ufcg-api
 npm install
 npm run dev
 ```  
