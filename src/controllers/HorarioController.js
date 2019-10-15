@@ -1,7 +1,21 @@
-import loadHorarios from "../utils/data";
+import loadHorarios, { sortBy } from "../utils/data";
 
 let horarios;
 loadHorarios().then(response => (horarios = response));
+
+const supportedSortFilters = [
+  "professor",
+  "categoria",
+  "disciplina",
+  "sala",
+  "turma",
+  "periodo_ppc_antigo",
+  "periodo_ppc_novo"
+];
+
+function getOrderNum(orderParam) {
+  return orderParam === "asc" ? 1 : orderParam === "desc" ? -1 : 1;
+}
 
 function containsQuery(query) {
   return query !== undefined && query !== null;
@@ -49,6 +63,17 @@ function applyQueryFilters(queries) {
   if (containsQuery(queries.periodo_ppc_novo)) {
     horariosAndQueryFilters = horariosAndQueryFilters.filter(
       horario => horario.periodo_ppc_novo === queries.periodo_ppc_novo
+    );
+  }
+
+  if (
+    containsQuery(queries.sort_by) &&
+    supportedSortFilters.includes(queries.sort_by)
+  ) {
+    const orderNum = getOrderNum(queries.order); // by default is ascending -> 1
+
+    horariosAndQueryFilters = horariosAndQueryFilters.sort(
+      sortBy(queries.sort_by, orderNum)
     );
   }
 
