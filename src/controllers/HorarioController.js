@@ -52,6 +52,18 @@ function applyQueryFilters(queries) {
     );
   }
 
+  if (containsQuery(queries.dia)) {
+    horariosAndQueryFilters = horariosAndQueryFilters.filter(
+      horario => horario.horario.dia === queries.dia
+    );
+  }
+
+  if (containsQuery(queries.hora)) {
+    horariosAndQueryFilters = horariosAndQueryFilters.filter(
+      horario => parseInt(horario.horario.hora) === parseInt(queries.hora)
+    );
+  }
+
   return horariosAndQueryFilters;
 }
 
