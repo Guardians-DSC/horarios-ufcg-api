@@ -24,6 +24,11 @@ function getOrderNum(orderParam) {
     return orderParam === 'asc' ? 1 : orderParam === 'desc' ? -1 : 1;
 }
 
+/**
+ * Funcao que verifica se a query nao e nula ou undefined
+ * @param {*} query query a ser analisada
+ * Retorna um boolean. True caso a query nao seja undefined ou nula. False caso a query seja undefined ou nula 
+ */
 function containsQuery(query) {
     return query !== undefined && query !== null;
 }
