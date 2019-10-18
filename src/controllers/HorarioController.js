@@ -33,6 +33,11 @@ function containsQuery(query) {
     return query !== undefined && query !== null;
 }
 
+/**
+ * Funcao que aplica os filtros query.
+ * @param {*} queries query string a ser aplicada
+ * Retorna os horarios filtrados com base nos query
+ */
 function applyQueryFilters(queries) {
     let horariosAndQueryFilters = [...horarios];
 
