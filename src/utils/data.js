@@ -17,6 +17,9 @@ export function sortBy(criteria, order) {
     };
 }
 
+/**
+ * Funcao que compara horarios por disciplina em ordem crescente
+ */
 const sortByDisciplina = sortBy('disciplina', 1);
 
 const dias = {
