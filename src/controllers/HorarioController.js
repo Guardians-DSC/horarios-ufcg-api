@@ -2,7 +2,9 @@ import loadHorarios, { sortBy } from '../utils/data';
 
 let horarios;
 loadHorarios().then(response => (horarios = response));
-
+/**
+ * Possiveis filtros para filtragrem dos horarios
+ */
 const supportedSortFilters = [
     'professor',
     'categoria',
@@ -13,6 +15,11 @@ const supportedSortFilters = [
     'periodo_ppc_novo'
 ];
 
+/**
+ * Funcao que analisa e retorna o tipo de ordenacao na filtragem de horarios
+ * @param {*} orderParam tipo de ordenacao (asc ou desc)
+ * Retorna um inteiro referente ao tipo de ordenacao 1 (asc) -1 (desc)
+ */
 function getOrderNum(orderParam) {
     return orderParam === 'asc' ? 1 : orderParam === 'desc' ? -1 : 1;
 }
