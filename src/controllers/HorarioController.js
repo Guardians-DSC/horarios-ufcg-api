@@ -109,12 +109,18 @@ function applyQueryFilters(queries) {
 }
 
 module.exports = {
+    /**
+     * Funcao que retorna todos os horarios 
+     */
     indexAll(req, res) {
         const horariosAndQueryFilters = applyQueryFilters(req.query);
 
         res.send(horariosAndQueryFilters);
     },
 
+    /**
+     * Funcao que retorna todos os horarios filtrados pelo dia 
+     */
     indexByDay(req, res) {
         const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
 
@@ -127,6 +133,9 @@ module.exports = {
         }
     },
 
+    /**
+     * Funcao que retorna todos os horarios filtrados por dia da semana e hora do dia 
+     */
     indexByDayAndHour(req, res) {
         const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
         const horas = [8, 10, 14, 16, 18];
