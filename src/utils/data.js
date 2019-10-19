@@ -31,6 +31,14 @@ const dias = {
 };
 
 /**
+ * Mapa para associar sigla da disciplina ao nome dela de fato.
+ * Com a chave sendo a sigla e o valor o nome da disciplina.
+ */
+const nomesDasDisciplinas = {
+    "ingles": "Inglês"
+};
+
+/**
  * Converte uma linha não formatada de um arquivo .csv em um objeto especifico (horario)
  * @param {string} line Uma linha de um arquivo csv
  */
@@ -48,8 +56,11 @@ const convertToObject = line => {
     var [periodo_ppc_antigo, periodo_ppc_novo] = periodo_composto.split(';');
     var dia = horario[0];
     var hora = horario.substring(1);
+    var nome = nomesDasDisciplinas[disciplina];
+    if (!nome) nome = "desconhecido";
 
     return {
+        nome,
         sala,
         disciplina,
         turma,
