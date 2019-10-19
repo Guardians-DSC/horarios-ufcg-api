@@ -37,8 +37,17 @@ const dias = {
 const nomesDasDisciplinas = {
     "ingles": "Inglês",
     "eda" : "Estrutura de Dados e Algoritmos",
-    "plp" : "Paradigmas de Linguagem de Programação"
-
+    "bd1" : "Banco de Dados 1",
+    "intro-prob" : "Introdução à Probabilidade",
+    "psoft" : "Projeto de Software",
+    "plp" : "Paradigmas de Linguagens de Programação",
+    "oac" : "Organização e Arquitetura de Computadores",
+    "loac" : "Laboratório de Organização e Arquitetura de Computadores",
+    "economia" : "Economia",
+    "prog1" : "Programação 1",
+    "prog2" : "Programação 2",
+    "labprog1" : "Laboratório de Programação 1",
+    "labprog2" : "Laboratório de Programação 2"
 };
 
 /**
