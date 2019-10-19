@@ -57,7 +57,8 @@ const nomesDasDisciplinas = {
     "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
     "labprog1": "Laboratório de Programação 1",
     "prog2": "Programação 2",
-    "labprog2": "Laboratório de Programação 2"
+    "labprog2": "Laboratório de Programação 2",
+    "atal": "Análise e Técnicas de Algoritmos"
 };
 
 /**
