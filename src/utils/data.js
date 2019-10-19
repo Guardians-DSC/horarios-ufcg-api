@@ -63,7 +63,8 @@ const nomesDasDisciplinas = {
     "ic": "Introdução a Ciência da Computação",
     "metodologia": "Metodologia Científica",
     "adm-empreendedorismo": "Administração e Empreendedorismo",
-    "daca": "Desenvolvimento de Aplicações Corporativas Avançadas"
+    "daca": "Desenvolvimento de Aplicações Corporativas Avançadas",
+    "prog-concorrente": "Programação Concorrente",
 };
 
 /**
