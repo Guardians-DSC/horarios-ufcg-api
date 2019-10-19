@@ -60,6 +60,7 @@ const nomesDasDisciplinas = {
     "fmcc2": "Fundamentos da Matemática para Ciência da Computação 2",
     "so": "Sistemas Operacionais",
     "ic": "Introdução à Ciência da Computação",
+    "tcc": "Trabalho de Conclusão de Curso",
 };
 
 /**
