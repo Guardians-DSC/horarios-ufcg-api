@@ -67,6 +67,7 @@ const nomesDasDisciplinas = {
     "prog-concorrente": "Programação Concorrente",
     "aa": "Algoritmos Avançados",
     "tcomp": "Teoria da Computação",
+    "economia": "Economia",
 };
 
 /**
