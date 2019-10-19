@@ -48,6 +48,18 @@ const nomesDasDisciplinas = {
     "prog2" : "Programação 2",
     "labprog1" : "Laboratório de Programação 1",
     "labprog2" : "Laboratório de Programação 2"
+    "icc": "Introdução à Ciência da Computação",
+    "infosoc": "Informática e Sociedade",
+    "administracao": "Administração",
+    "leda": "Laboratório de Estrutura de Dados e Algorítmos",
+    "calculo1": "Cálculo 1",
+    "calculo2": "Cálculo 2",
+    "compiladores": "Compiladores",
+    "bd2": "Banco de Dados 2",
+    "ia": "Inteligência Artificial",
+    
+
+
 };
 
 /**
