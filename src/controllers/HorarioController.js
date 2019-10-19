@@ -1,5 +1,8 @@
 import loadHorarios, { sortBy } from '../utils/data';
 
+const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
+const horas = [8, 10, 14, 16, 18];
+
 let horarios;
 loadHorarios().then(response => (horarios = response));
 /**
@@ -108,6 +111,7 @@ function applyQueryFilters(queries) {
     return horariosAndQueryFilters;
 }
 
+
 module.exports = {
     /**
      * Funcao que retorna todos os horarios 
@@ -122,26 +126,19 @@ module.exports = {
      * Funcao que retorna todos os horarios filtrados pelo dia 
      */
     indexByDay(req, res) {
-        const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
+        const {dia} = req.query;
 
-        const dia = req.query.dia;
-
-        if (dia && dias.includes(dia)) {
-            res.send(horarios.filter(horario => horario.horario.dia === dia));
-        } else {
-            res.status(404).send({ error: 'Error' });
-        }
+        (dia && dias.includes(dia))
+            ? res.send(horarios.filter(horario => horario.horario.dia === dia))
+            : res.status(404).send({ error: 'Error: indexByDay' });
     },
 
     /**
      * Funcao que retorna todos os horarios filtrados por dia da semana e hora do dia 
      */
     indexByDayAndHour(req, res) {
-        const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
-        const horas = [8, 10, 14, 16, 18];
-
-        const dia = req.query.dia;
-        const hora = parseInt(req.query.hora);
+        let {dia, hora} = req.query;
+        hora = parseInt(hora);
 
         if (dia && dias.includes(dia) && (hora && horas.includes(hora))) {
             res.send(
@@ -152,7 +149,7 @@ module.exports = {
                 )
             );
         } else {
-            res.status(404).send({ error: 'Error' });
+            res.status(404).send({ error: 'Error: indexByDayAndHour' });
         }
     }
 };
