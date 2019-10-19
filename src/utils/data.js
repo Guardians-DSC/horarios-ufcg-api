@@ -50,7 +50,14 @@ const nomesDasDisciplinas = {
     "fmcc2": "Fundamentos da Matemática para Ciência da Computação 2",
     "so": "Sistemas Operacionais",
     "ic": "Introdução à Ciência da Computação",
-    "redes": "Redes de Computadores"
+    "redes": "Redes de Computadores",
+    "prog1": "Programação 1",
+    "bd1": "Banco de Dados 1",
+    "so": "Sistemas Operacionais",
+    "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
+    "labprog1": "Laboratório de Programação 1",
+    "prog2": "Programação 2",
+    "labprog2": "Laboratório de Programação 2"
 };
 
 /**
