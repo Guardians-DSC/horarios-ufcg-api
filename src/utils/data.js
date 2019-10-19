@@ -1,6 +1,10 @@
 import { readFile } from '.';
 const CSV_NAME = 'horario20191.csv';
-
+/**
+ * Uma funcao de comparacao de horarios.
+ * @param {*} criteria criterio que quer que ordene os horarios
+ * @param {*} order ordem crescente (1) ou decrescente (-1)
+ */
 export function sortBy(criteria, order) {
     return function(a, b) {
         if (a[criteria] < b[criteria]) {
@@ -13,6 +17,9 @@ export function sortBy(criteria, order) {
     };
 }
 
+/**
+ * Funcao que compara horarios por disciplina em ordem crescente
+ */
 const sortByDisciplina = sortBy('disciplina', 1);
 
 const dias = {

@@ -2,7 +2,9 @@ import loadHorarios, { sortBy } from '../utils/data';
 
 let horarios;
 loadHorarios().then(response => (horarios = response));
-
+/**
+ * Possiveis filtros para filtragrem dos horarios
+ */
 const supportedSortFilters = [
     'professor',
     'categoria',
@@ -13,14 +15,29 @@ const supportedSortFilters = [
     'periodo_ppc_novo'
 ];
 
+/**
+ * Funcao que analisa e retorna o tipo de ordenacao na filtragem de horarios
+ * @param {*} orderParam tipo de ordenacao (asc ou desc)
+ * Retorna um inteiro referente ao tipo de ordenacao 1 (asc) -1 (desc)
+ */
 function getOrderNum(orderParam) {
     return orderParam === 'asc' ? 1 : orderParam === 'desc' ? -1 : 1;
 }
 
+/**
+ * Funcao que verifica se a query nao e nula ou undefined
+ * @param {*} query query a ser analisada
+ * Retorna um boolean. True caso a query nao seja undefined ou nula. False caso a query seja undefined ou nula 
+ */
 function containsQuery(query) {
     return query !== undefined && query !== null;
 }
 
+/**
+ * Funcao que aplica os filtros query.
+ * @param {*} queries query string a ser aplicada
+ * Retorna os horarios filtrados com base nos query
+ */
 function applyQueryFilters(queries) {
     let horariosAndQueryFilters = [...horarios];
 
@@ -92,12 +109,18 @@ function applyQueryFilters(queries) {
 }
 
 module.exports = {
+    /**
+     * Funcao que retorna todos os horarios 
+     */
     indexAll(req, res) {
         const horariosAndQueryFilters = applyQueryFilters(req.query);
 
         res.send(horariosAndQueryFilters);
     },
 
+    /**
+     * Funcao que retorna todos os horarios filtrados pelo dia 
+     */
     indexByDay(req, res) {
         const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
 
@@ -110,6 +133,9 @@ module.exports = {
         }
     },
 
+    /**
+     * Funcao que retorna todos os horarios filtrados por dia da semana e hora do dia 
+     */
     indexByDayAndHour(req, res) {
         const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
         const horas = [8, 10, 14, 16, 18];
