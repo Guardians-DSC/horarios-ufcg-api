@@ -124,7 +124,7 @@ module.exports = {
     indexByDay(req, res) {
         const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
 
-        const dia = req.params.dia;
+        const dia = req.query.dia;
 
         if (dia && dias.includes(dia)) {
             res.send(horarios.filter(horario => horario.horario.dia === dia));
@@ -140,8 +140,8 @@ module.exports = {
         const dias = ['segunda', 'terca', 'quarta', 'quinta', 'sexta'];
         const horas = [8, 10, 14, 16, 18];
 
-        const dia = req.params.dia;
-        const hora = parseInt(req.params.hora);
+        const dia = req.query.dia;
+        const hora = parseInt(req.query.hora);
 
         if (dia && dias.includes(dia) && (hora && horas.includes(hora))) {
             res.send(
