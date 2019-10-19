@@ -57,6 +57,7 @@ const nomesDasDisciplinas = {
     "compiladores": "Compiladores",
     "bd2": "Banco de Dados 2",
     "ia": "Inteligência Artificial",
+    "fmcc2": "Fundamentos da Matemática para Ciência da Cmputação II",
     
 
 
