@@ -58,6 +58,7 @@ const nomesDasDisciplinas = {
     "labprog1": "Laboratório de Programação 1",
     "prog2": "Programação 2",
     "labprog2": "Laboratório de Programação 2"
+    "direito-e-cidadania": "Direito e Cidadania",
 };
 
 /**
