@@ -47,6 +47,7 @@ const nomesDasDisciplinas = {
     "compiladores": "Compiladores",
     "bd2": "Banco de Dados 2",
     "ia": "Inteligência Artificial",
+    "bd1": "Banco de Dados 1"
     
 
 };
