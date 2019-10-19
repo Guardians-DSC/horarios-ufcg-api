@@ -62,7 +62,8 @@ const nomesDasDisciplinas = {
     "grafos": "Teoria dos Grafos",
     "ic": "Introdução a Ciência da Computação",
     "metodologia": "Metodologia Científica",
-    "adm-empreendedorismo": "Administração e Empreendedorismo"
+    "adm-empreendedorismo": "Administração e Empreendedorismo",
+    "daca": "Desenvolvimento de Aplicações Corporativas Avançadas"
 };
 
 /**
