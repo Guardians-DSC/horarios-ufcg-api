@@ -36,18 +36,8 @@ const dias = {
  */
 const nomesDasDisciplinas = {
     "ingles": "Inglês",
-    "eda" : "Estrutura de Dados e Algoritmos",
-    "bd1" : "Banco de Dados 1",
-    "intro-prob" : "Introdução à Probabilidade",
-    "psoft" : "Projeto de Software",
-    "plp" : "Paradigmas de Linguagens de Programação",
-    "oac" : "Organização e Arquitetura de Computadores",
-    "loac" : "Laboratório de Organização e Arquitetura de Computadores",
-    "economia" : "Economia",
-    "prog1" : "Programação 1",
-    "prog2" : "Programação 2",
-    "labprog1" : "Laboratório de Programação 1",
-    "labprog2" : "Laboratório de Programação 2",
+    "eda": "Estrutura de Dados e Algoritmos",
+    "plp": "Paradigmas de Linguagem de Programação",
     "icc": "Introdução à Ciência da Computação",
     "infosoc": "Informática e Sociedade",
     "administracao": "Administração",
@@ -57,8 +47,16 @@ const nomesDasDisciplinas = {
     "compiladores": "Compiladores",
     "bd2": "Banco de Dados 2",
     "ia": "Inteligência Artificial",
-    "bd1": "Banco de Dados 1"
-    "fmcc2": "Fundamentos da Matemática para Ciência da Cmputação 2",
+    "prog1": "Programação 1",
+    "bd1": "Banco de Dados 1",
+    "so": "Sistemas Operacionais",
+    "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
+    "fmcc2": "Fundamentos Matemáticos para Ciência da Computação 2",
+    "labprog1": "Laboratório de Programação 1",
+    "prog2": "Programação 2",
+    "labprog2": "Laboratório de Programação 2",
+    
+
 };
 
 /**
