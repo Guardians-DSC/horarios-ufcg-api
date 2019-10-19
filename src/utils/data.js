@@ -35,7 +35,10 @@ const dias = {
  * Com a chave sendo a sigla e o valor o nome da disciplina.
  */
 const nomesDasDisciplinas = {
-    "ingles": "Inglês"
+    "ingles": "Inglês",
+    "eda" : "Estrutura de Dados e Algoritmos",
+    "plp" : "Paradigmas de Linguagem de Programação"
+
 };
 
 /**
