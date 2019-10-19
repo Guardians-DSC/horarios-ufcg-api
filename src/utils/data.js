@@ -58,7 +58,8 @@ const nomesDasDisciplinas = {
     "bd2": "Banco de Dados 2",
     "ia": "Inteligência Artificial",
     "bd1": "Banco de Dados 1"
-    "fmcc2": "Fundamentos da Matemática para Ciência da Cmputação 2",
+    "fmcc2": "Fundamentos Matemáticos para Ciência da Computação 2",
+    "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
 };
 
 /**
