@@ -59,6 +59,7 @@ const nomesDasDisciplinas = {
     "ia": "Inteligência Artificial",
     "bd1": "Banco de Dados 1"
     "fmcc2": "Fundamentos da Matemática para Ciência da Cmputação 2",
+    "metodologia": "Metodologia Científica",
 };
 
 /**
