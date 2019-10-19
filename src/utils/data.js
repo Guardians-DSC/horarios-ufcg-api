@@ -60,6 +60,8 @@ const nomesDasDisciplinas = {
     "atal": "Análise e Técnicas de Algoritmos",
     "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
     "grafos": "Teoria dos Grafos",
+    "es": "Engenharia de Software",
+    "linear": "Álgebra Linear"
 };
 
 /**
