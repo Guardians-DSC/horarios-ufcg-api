@@ -9,4 +9,5 @@ const app = express();
 
 app.use(cors());
 app.use('/horarios', routes);
-app.listen(PORT);
+
+app.listen(PORT, () => console.log('Servidor Iniciado'));
