@@ -36,8 +36,18 @@ const dias = {
  */
 const nomesDasDisciplinas = {
     "ingles": "Inglês",
-    "eda" : "Estrutura de Dados e Algoritmos",
-    "plp" : "Paradigmas de Linguagem de Programação"
+    "eda": "Estrutura de Dados e Algoritmos",
+    "plp": "Paradigmas de Linguagem de Programação",
+    "icc": "Introdução à Ciência da Computação",
+    "infosoc": "Informática e Sociedade",
+    "administracao": "Administração",
+    "leda": "Laboratório de Estrutura de Dados e Algorítmos",
+    "calculo1": "Cálculo 1",
+    "calculo2": "Cálculo 2",
+    "compiladores": "Compiladores",
+    "bd2": "Banco de Dados 2",
+    "ia": "Inteligência Artificial",
+    
 
 };
 
