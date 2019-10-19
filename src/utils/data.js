@@ -61,8 +61,8 @@ const nomesDasDisciplinas = {
     "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
     "grafos": "Teoria dos Grafos",
     "ic": "Introdução a Ciência da Computação",
-    "adm-empreendedorismo": "Administração e Empreendedorismo",
-    "metodologia": "Metodologia Científica"
+    "metodologia": "Metodologia Científica",
+    "adm-empreendedorismo": "Administração e Empreendedorismo"
 };
 
 /**
