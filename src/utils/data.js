@@ -57,8 +57,9 @@ const nomesDasDisciplinas = {
     "compiladores": "Compiladores",
     "bd2": "Banco de Dados 2",
     "ia": "Inteligência Artificial",
-    "bd1": "Banco de Dados 1"
     "fmcc2": "Fundamentos da Matemática para Ciência da Cmputação 2",
+    "ic": "Introdução a Ciência da Computação",
+    "adm-empreendedorismo": "Administração e Empreendedorismo",
 };
 
 /**
