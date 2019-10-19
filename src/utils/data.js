@@ -50,7 +50,8 @@ const nomesDasDisciplinas = {
     "fmcc2": "Fundamentos da Matemática para Ciência da Computação 2",
     "so": "Sistemas Operacionais",
     "ic": "Introdução à Ciência da Computação",
-    "redes": "Redes de Computadores"
+    "redes": "Redes de Computadores",
+    "percepcao-comp": "Percepção Computacional",
 };
 
 /**
