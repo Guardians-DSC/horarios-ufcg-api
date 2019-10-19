@@ -66,6 +66,7 @@ const nomesDasDisciplinas = {
     "daca": "Desenvolvimento de Aplicações Corporativas Avançadas",
     "prog-concorrente": "Programação Concorrente",
     "aa": "Algoritmos Avançados",
+    "tcomp": "Teoria da Computação",
 };
 
 /**
