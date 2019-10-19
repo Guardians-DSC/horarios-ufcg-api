@@ -36,7 +36,9 @@ const dias = {
  */
 const nomesDasDisciplinas = {
     "ingles": "Inglês",
-    "eda" : "Estrutura de Dados e Algoritmos"
+    "eda" : "Estrutura de Dados e Algoritmos",
+    "plp" : "Paradigmas de Linguagem de Programação"
+
 };
 
 /**
