@@ -30,9 +30,9 @@ A API estará rodando em http://localhost:3000
 
 Método | Endpoint           | Descrição
 -------|--------------------|-------------
-GET    | /horarios/         | Retorna todos os horários
-GET    | /horarios/**:dia** | Retorna todos os horários do dia especificado
-GET    | /horarios/**:dia**/**:hora** | Retorna todos os horários filtrados pelo dia e hora especificados
+GET    | /horarios         | Retorna todos os horários
+GET    | /horarios?**:dia** | Retorna todos os horários do dia especificado
+GET    | /horarios?**:dia=Valor**&**:hora=Valor** | Retorna todos os horários filtrados pelo dia e hora especificados
 
 Os dias, disponíveis atualmente, são: segunda, terca, quarta, quinta e sexta. E as horas são: 08, 10, 14 e 16.
 
