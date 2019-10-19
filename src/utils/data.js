@@ -65,6 +65,7 @@ const nomesDasDisciplinas = {
     "adm-empreendedorismo": "Administração e Empreendedorismo",
     "daca": "Desenvolvimento de Aplicações Corporativas Avançadas",
     "prog-concorrente": "Programação Concorrente",
+    "aa": "Algoritmos Avançados",
 };
 
 /**
