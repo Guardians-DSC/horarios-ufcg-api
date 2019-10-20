@@ -65,11 +65,11 @@ const nomesDasDisciplinas = {
     "daca": "Desenvolvimento de Aplicações Corporativas Avançadas",
     "prog-concorrente": "Programação Concorrente",
     "aa3": "Algoritmos Avançados",
-    "tcomp": "Teoria da Computação",
     "economia": "Economia",
     "tcc": "Trabalho de Conclusão de Curso",
     "proj-tcc": "Projeto de Trabalho de Conclusão de Curso",
     "grafos": "Teoria dos Grafos",
+    "tcomp": "Teoria da Computação",
 };
 
 /**
