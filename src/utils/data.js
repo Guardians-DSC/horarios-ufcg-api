@@ -35,39 +35,41 @@ const dias = {
  * Com a chave sendo a sigla e o valor o nome da disciplina.
  */
 const nomesDasDisciplinas = {
-    "ingles": "Inglês",
-    "eda": "Estrutura de Dados e Algoritmos",
-    "plp": "Paradigmas de Linguagem de Programação",
-    "icc": "Introdução à Ciência da Computação",
-    "infosoc": "Informática e Sociedade",
-    "administracao": "Administração",
-    "leda": "Laboratório de Estrutura de Dados e Algorítmos",
-    "calculo1": "Cálculo 1",
-    "calculo2": "Cálculo 2",
-    "compiladores": "Compiladores",
-    "bd2": "Banco de Dados 2",
-    "ia": "Inteligência Artificial",
-    "fmcc2": "Fundamentos da Matemática para Ciência da Computação 2",
-    "so": "Sistemas Operacionais",
-    "ic": "Introdução à Ciência da Computação",
-    "redes": "Redes de Computadores",
-    "prog1": "Programação 1",
-    "bd1": "Banco de Dados 1",
-    "so": "Sistemas Operacionais",
-    "labprog1": "Laboratório de Programação 1",
-    "prog2": "Programação 2",
-    "labprog2": "Laboratório de Programação 2",
-    "atal": "Análise e Técnicas de Algoritmos",
-    "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
-    "grafos": "Teoria dos Grafos",
-    "ic": "Introdução a Ciência da Computação",
-    "metodologia": "Metodologia Científica",
-    "adm-empreendedorismo": "Administração e Empreendedorismo",
-    "daca": "Desenvolvimento de Aplicações Corporativas Avançadas",
-    "prog-concorrente": "Programação Concorrente",
-    "aa": "Algoritmos Avançados",
-    "tcomp": "Teoria da Computação",
-    "economia": "Economia",
+    ingles: 'Inglês',
+    eda: 'Estrutura de Dados e Algoritmos',
+    plp: 'Paradigmas de Linguagem de Programação',
+    icc: 'Introdução à Ciência da Computação',
+    infosoc: 'Informática e Sociedade',
+    administracao: 'Administração',
+    leda: 'Laboratório de Estrutura de Dados e Algorítmos',
+    calculo1: 'Cálculo 1',
+    calculo2: 'Cálculo 2',
+    compiladores: 'Compiladores',
+    bd2: 'Banco de Dados 2',
+    ia: 'Inteligência Artificial',
+    fmcc2: 'Fundamentos da Matemática para Ciência da Computação 2',
+    so: 'Sistemas Operacionais',
+    ic: 'Introdução à Ciência da Computação',
+    redes: 'Redes de Computadores',
+    prog1: 'Programação 1',
+    bd1: 'Banco de Dados 1',
+    so: 'Sistemas Operacionais',
+    labprog1: 'Laboratório de Programação 1',
+    prog2: 'Programação 2',
+    labprog2: 'Laboratório de Programação 2',
+    atal: 'Análise e Técnicas de Algoritmos',
+    fmcc1: 'Fundamentos Matemáticos para Ciência da Computação 1',
+    grafos: 'Teoria dos Grafos',
+    ic: 'Introdução a Ciência da Computação',
+    metodologia: 'Metodologia Científica',
+    'adm-empreendedorismo': 'Administração e Empreendedorismo',
+    daca: 'Desenvolvimento de Aplicações Corporativas Avançadas',
+    'prog-concorrente': 'Programação Concorrente',
+    aa: 'Algoritmos Avançados',
+    tcomp: 'Teoria da Computação',
+    economia: 'Economia',
+    'irc/lirc':
+        'Interconexão de Redes de Computadores/Laboratório de Interconexão de Redes de Computadores'
 };
 
 /**
@@ -89,7 +91,7 @@ const convertToObject = line => {
     var dia = horario[0];
     var hora = horario.substring(1);
     var nome = nomesDasDisciplinas[disciplina];
-    if (!nome) nome = "desconhecido";
+    if (!nome) nome = 'desconhecido';
 
     return {
         nome,
