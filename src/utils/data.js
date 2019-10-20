@@ -68,7 +68,7 @@ const nomesDasDisciplinas = {
     "aa3": "Algoritmos Avançados",
     "tcomp": "Teoria da Computação",
     "economia": "Economia",
-    "tcc": "Trabalho de Conclusão do Curso",
+    "tcc": "Trabalho de Conclusão de Curso",
 };
 
 /**
