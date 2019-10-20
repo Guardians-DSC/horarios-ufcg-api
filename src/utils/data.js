@@ -73,9 +73,9 @@ const nomesDasDisciplinas = {
     "percepcao-comp": "Percepção Computacional",
     "direito-e-cidadania": "Direito e Cidadania",
     "lingua-portuguesa": "Lingua Portuguesa",
-    "irc": "Interconexão de Redes de Computadores",
     "es": "Engenharia de Software",
     "linear": "Álgebra Linear",
+    "irc/lirc": "Interconexão de Redes de Computadores/Laboratório de Interconexão de Redes de Computadores",
 };
 
 /**
@@ -97,7 +97,7 @@ const convertToObject = line => {
     var dia = horario[0];
     var hora = horario.substring(1);
     var nome = nomesDasDisciplinas[disciplina];
-    if (!nome) nome = "desconhecido";
+    if (!nome) nome = 'desconhecido';
 
     return {
         nome,
