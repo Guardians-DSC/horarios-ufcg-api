@@ -73,6 +73,7 @@ const nomesDasDisciplinas = {
     "percepcao-comp": "Percepção Computacional",
     "direito-e-cidadania": "Direito e Cidadania",
     "lingua-portuguesa": "Lingua Portuguesa",
+    "irc": "Interconexão de Redes de Computadores",
 };
 
 /**
