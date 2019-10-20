@@ -72,6 +72,7 @@ const nomesDasDisciplinas = {
     "tcomp": "Teoria da Computação",
     "percepcao-comp": "Percepção Computacional",
     "direito-e-cidadania": "Direito e Cidadania",
+    "lingua-portuguesa": "Lingua Portuguesa",
 };
 
 /**
