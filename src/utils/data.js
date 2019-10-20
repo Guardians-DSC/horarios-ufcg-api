@@ -69,6 +69,7 @@ const nomesDasDisciplinas = {
     "tcomp": "Teoria da Computação",
     "economia": "Economia",
     "tcc": "Trabalho de Conclusão de Curso",
+    "proj-tcc": "Projeto de Trabalho de Conclusão de Curso",
 };
 
 /**
