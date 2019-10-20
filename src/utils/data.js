@@ -74,6 +74,8 @@ const nomesDasDisciplinas = {
     "direito-e-cidadania": "Direito e Cidadania",
     "lingua-portuguesa": "Lingua Portuguesa",
     "irc": "Interconexão de Redes de Computadores",
+    "es": "Engenharia de Software",
+    "linear": "Álgebra Linear",
 };
 
 /**
