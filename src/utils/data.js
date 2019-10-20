@@ -71,6 +71,7 @@ const nomesDasDisciplinas = {
     "grafos": "Teoria dos Grafos",
     "tcomp": "Teoria da Computação",
     "direito-e-cidadania": "Direito e Cidadania",
+    "percepcao-comp": "Percepção Computacional",
 };
 
 /**
