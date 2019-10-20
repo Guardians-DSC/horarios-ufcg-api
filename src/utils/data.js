@@ -65,9 +65,10 @@ const nomesDasDisciplinas = {
     "adm-empreendedorismo": "Administração e Empreendedorismo",
     "daca": "Desenvolvimento de Aplicações Corporativas Avançadas",
     "prog-concorrente": "Programação Concorrente",
-    "aa": "Algoritmos Avançados",
+    "aa3": "Algoritmos Avançados",
     "tcomp": "Teoria da Computação",
     "economia": "Economia",
+    "tcc": "Trabalho de Conclusão do Curso",
 };
 
 /**
