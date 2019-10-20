@@ -4,6 +4,7 @@ Essa API provê dados sobre os horários do curso de Computação@UFCG. Os dados
 ## Formato do dado
 ```json
 {
+   "nome": "Sociologia",
    "sala": "pre",
    "disciplina": "sociologia",
    "turma": "t1",
