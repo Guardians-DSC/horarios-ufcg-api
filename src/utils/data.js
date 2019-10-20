@@ -59,7 +59,6 @@ const nomesDasDisciplinas = {
     "labprog2": "Laboratório de Programação 2",
     "atal": "Análise e Técnicas de Algoritmos",
     "fmcc1": "Fundamentos Matemáticos para Ciência da Computação 1",
-    "grafos": "Teoria dos Grafos",
     "ic": "Introdução a Ciência da Computação",
     "metodologia": "Metodologia Científica",
     "adm-empreendedorismo": "Administração e Empreendedorismo",
@@ -70,6 +69,7 @@ const nomesDasDisciplinas = {
     "economia": "Economia",
     "tcc": "Trabalho de Conclusão de Curso",
     "proj-tcc": "Projeto de Trabalho de Conclusão de Curso",
+    "grafos": "Teoria dos Grafos",
 };
 
 /**
