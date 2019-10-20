@@ -70,8 +70,8 @@ const nomesDasDisciplinas = {
     "proj-tcc": "Projeto de Trabalho de Conclusão de Curso",
     "grafos": "Teoria dos Grafos",
     "tcomp": "Teoria da Computação",
-    "direito-e-cidadania": "Direito e Cidadania",
     "percepcao-comp": "Percepção Computacional",
+    "direito-e-cidadania": "Direito e Cidadania",
 };
 
 /**
