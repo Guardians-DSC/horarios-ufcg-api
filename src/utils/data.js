@@ -76,6 +76,18 @@ const nomesDasDisciplinas = {
     "es": "Engenharia de Software",
     "linear": "Álgebra Linear",
     "irc/lirc": "Interconexão de Redes de Computadores/Laboratório de Interconexão de Redes de Computadores",
+    "prog-funcional": "Programação Funcional",
+    "adm-si": "Administração de Sistemas",
+    "estatistica-aplicada": "Estatística Aplicada",
+    "adsd": "Avaliação de Desempenho de Sistemas Discretos",
+    "msn": "Métodos e Softwares Númericos",
+    "rec-informacao": "Recuperação da Informação e Busca na Web",
+    "intro-prob": "Introdução à Probabilidade",
+    "empsoft": "Empreendedorismo em Software",
+    "atal": "Análise e Técnicas de Algoritmos",
+    "analise-sistemas": "Análise de Sistemas",
+    "logica": "Lógica para computação",
+    "v&v-testes": "Verificação e Validação de Software",
 };
 
 /**
