@@ -76,6 +76,11 @@ const nomesDasDisciplinas = {
     "es": "Engenharia de Software",
     "linear": "Álgebra Linear",
     "irc/lirc": "Interconexão de Redes de Computadores/Laboratório de Interconexão de Redes de Computadores",
+    "intro-prob": "Introdução à Probabilidade",
+    "estatistica-aplicada": "Estatística Aplicada",
+    "prog-funcional": "Programação Funcional",
+    "analise-sistemas": "Análise de Sistemas",
+    "logica": "Lógica para Computação",
 };
 
 /**
