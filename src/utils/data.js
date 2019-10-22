@@ -1,6 +1,4 @@
-import {
-    readFile
-} from '.';
+import { readFile } from '.';
 const CSV_NAME = 'horario20191.csv';
 /**
  * Uma funcao de comparacao de horarios.
@@ -8,7 +6,7 @@ const CSV_NAME = 'horario20191.csv';
  * @param {*} order ordem crescente (1) ou decrescente (-1)
  */
 export function sortBy(criteria, order) {
-    return function (a, b) {
+    return function(a, b) {
         if (a[criteria] < b[criteria]) {
             return -1 * order;
         }
