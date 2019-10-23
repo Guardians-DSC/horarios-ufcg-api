@@ -88,6 +88,9 @@ const nomesDasDisciplinas = {
     "analise-sistemas": "Análise de Sistemas",
     "logica": "Lógica para computação",
     "v&v-testes": "Verificação e Validação de Software",
+    "cnum": "Cálculo Numérico",
+    "tecnicas-prog": "Técnicas de Programação",
+    "eti": "Economia de Tecnologia da Informação",
 };
 
 /**
