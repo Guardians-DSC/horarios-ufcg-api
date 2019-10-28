@@ -91,6 +91,7 @@ const nomesDasDisciplinas = {
     "cnum": "Cálculo Numérico",
     "tecnicas-prog": "Técnicas de Programação",
     "eti": "Economia de Tecnologia da Informação",
+    "proj2": "Projeto em Computação 2",
 };
 
 /**
