@@ -92,6 +92,9 @@ const nomesDasDisciplinas = {
     "tecnicas-prog": "Técnicas de Programação",
     "eti": "Economia de Tecnologia da Informação",
     "proj2": "Projeto em Computação 2",
+    "empreendedorismo": "Empreendedorismo em Software",
+    "ciencia-dados-descritiva": "Ciência de Dados Preditiva",
+    "gestao-ti": "Gestão de Tecnologia da Informação",
 };
 
 /**
