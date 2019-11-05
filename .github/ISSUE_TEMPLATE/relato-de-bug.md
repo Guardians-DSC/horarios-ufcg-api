@@ -20,10 +20,10 @@ Etapas para reproduzir o comportamento:
 **Comportamento esperado**
 Uma descrição clara e concisa do que você esperava que acontecesse.
 
-** Capturas de tela **
+**Capturas de tela**
 Se aplicável, adicione capturas de tela para ajudar a explicar seu problema.
 
-** Desktop (preencha as seguintes informações): **
+**Desktop (preencha as seguintes informações):**
   - SO: [por exemplo iOS]
   - Navegador [por exemplo cromo, safari]
   - Versão [por exemplo 22]
