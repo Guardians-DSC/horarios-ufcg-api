@@ -10,4 +10,7 @@ const app = express();
 app.use(cors());
 app.use('/horarios', routes);
 
+/**
+ * Confirmação de inicialização do servidor.
+ */
 app.listen(PORT, () => console.log('Servidor Iniciado'));
