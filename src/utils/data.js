@@ -1,5 +1,5 @@
 import { readFile } from '.';
-const CSV_NAME = 'horario20192.csv';
+const CSV_NAME = 'horario20191.csv';
 /**
  * Uma funcao de comparacao de horarios.
  * @param {*} criteria criterio que quer que ordene os horarios
