@@ -135,6 +135,32 @@ const convertToObject = line => {
 };
 
 /**
+ * Remove horários duplicados.
+ * 
+ * Um horário é duplicado quando possui a mesma disciplina, turma, hora e dia.
+ * Em caso da lista possuir horários duplicados e algum deles for na sala "pre",
+ * esse será removido pois essa sala é apenas um placeholder para as turmas sem sala
+ * definida. Se houver duplicatas mas nenhum for na sala pre apenas o primeiro encontrado
+ * será mantido.
+ * 
+ * @param {[Object]} array lista de horarios ja formatados porém com duplicatas
+ * @returns lista de horários sem duplicatas
+ */
+const removeHorariosDuplicados = (array) => {
+    const horarios = {};
+    var key;
+    
+    array.forEach(element => {
+        key = element.disciplina + '-' + element.turma + '-' + element.horario.dia + '-' + element.horario.hora;
+        if ( (horarios[key] && horarios[key].sala == "pre") || !horarios[key]) {
+            horarios[key] = element;
+        }
+    });
+
+    return Object.values(horarios);
+};
+
+/**
  * Carrega todos os horários a partir do .csv com nome especificado em CSV_NAME
  * Retorna uma promise, contendo os horarios.
  */
@@ -144,7 +170,8 @@ export default async function buildSchedule() {
     await readFile(`src/csv/${CSV_NAME}`).then(content => {
         var contentAsStringArray = content.split('\r\n');
         contentAsStringArray.shift(); // Remove header (first element)
-        horarios = contentAsStringArray.map(convertToObject);
+        const horariosArray = contentAsStringArray.map(convertToObject);
+        horarios = removeHorariosDuplicados(horariosArray);
     });
 
     return horarios.sort(sortByDisciplina);
