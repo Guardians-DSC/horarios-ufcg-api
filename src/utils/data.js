@@ -1,6 +1,9 @@
 import { readFile } from '.';
 import nomesDasDisciplinas from './disciplinas.json'
+import subjects from './csv/subjects.json';
 const CSV_NAME = 'horario20191.csv';
+const data_filename = 'subjects.json';
+
 /**
  * Uma funcao de comparacao de horarios.
  * @param {*} criteria criterio que quer que ordene os horarios
@@ -31,82 +34,66 @@ const dias = {
     x: 'sexta'
 };
 
-/**
- * Converte uma linha não formatada de um arquivo .csv em um objeto especifico (horario)
- * @param {string} line Uma linha de um arquivo csv
- */
-const convertToObject = line => {
-    var [
-        sala,
-        disciplina_turma,
-        professor,
-        categoria,
-        periodo_composto,
-        horario
-    ] = line.split(',');
-    var turma = disciplina_turma.split('-').pop();
-    var disciplina = disciplina_turma.slice(0, -3);
-    var [periodo_ppc_antigo, periodo_ppc_novo] = periodo_composto.split(';');
-    var dia = horario[0];
-    var hora = horario.substring(1);
-    var nome = nomesDasDisciplinas[disciplina];
-    if (!nome) nome = 'desconhecido';
+const campo_desconhecido = "-";
 
-    return {
-        nome,
-        sala,
-        disciplina,
-        turma,
-        professor,
-        categoria,
-        periodo_ppc_antigo,
-        periodo_ppc_novo,
-        horario: {
-            dia: dias[dia],
-            hora
-        }
-    };
-};
+const getHoras = data => {
+    let splitted = data.split("-");
+    let inicio = splitted[0];
+    inicio = inicio.split(":")[0];
+    return inicio;
+}
 
-/**
- * Remove horários duplicados.
- * 
- * Um horário é duplicado quando possui a mesma disciplina, turma, hora e dia.
- * Em caso da lista possuir horários duplicados e algum deles for na sala "pre",
- * esse será removido pois essa sala é apenas um placeholder para as turmas sem sala
- * definida. Se houver duplicatas mas nenhum for na sala pre apenas o primeiro encontrado
- * será mantido.
- * 
- * @param {[Object]} array lista de horarios ja formatados porém com duplicatas
- * @returns lista de horários sem duplicatas
- */
-const removeHorariosDuplicados = (array) => {
-    const horarios = {};
-    var key;
-    
-    array.forEach(element => {
-        key = element.disciplina + '-' + element.turma + '-' + element.horario.dia + '-' + element.horario.hora;
-        if ( (horarios[key] && horarios[key].sala == "pre") || !horarios[key]) {
-            horarios[key] = element;
+const getSala = data => data.substring(1, -1);
+
+const formatObject = obj => {
+    let { horarios, periodo, turma, codigo, disciplina } = obj;
+    turma = "t" + parseInt(turma);
+    let sala;
+    horarios = horarios.map(horario => {
+        let parts = horario.split(" ");
+        let dia = dias[parts[0]];
+        let hora = getHoras(parts[1]);
+        sala = getSala(parts[2]);
+        return {
+            horario: {dia,hora}
         }
     });
 
-    return Object.values(horarios);
-};
+    let base = {
+        nome: disciplina,
+        sala,
+        disciplina: campo_desconhecido,
+        turma,
+        professor: campo_desconhecido,
+        categoria: campo_desconhecido,
+        periodo_ppc_novo: periodo,
+        sala,
+        horarios
+    };
+
+    return base;
+}
+
+const duplicaHorarios = dados => {
+    const novosHorarios = [];
+    dados.forEach(item => {
+        item.horarios.map(horario => ({
+            ...item,
+            horario
+        }));
+        delete item["horarios"];
+        novosHorarios.push(item);
+    });
+    return novosHorarios;
+}
 
 /**
  * Carrega todos os horários a partir do .csv com nome especificado em CSV_NAME
  * Retorna uma promise, contendo os horarios.
  */
 export default async function buildSchedule() {
-    var horarios;
-
-    await readFile(`src/csv/${CSV_NAME}`).then(content => {
-        var contentAsStringArray = content.split('\r\n');
-        contentAsStringArray.shift(); // Remove header (first element)
-        const horariosArray = contentAsStringArray.map(convertToObject);
-        horarios = removeHorariosDuplicados(horariosArray);
-    });
-
+    // const response = await fetch("./csv/subjects.json");
+    let horarios = subjects.map(formatObject);
+    horarios = duplicaHorarios(horarios);
     return horarios.sort(sortByDisciplina);
 }
