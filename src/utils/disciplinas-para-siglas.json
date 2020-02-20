@@ -1,5 +1,17 @@
 {
     "FUND DE MATEMATICA P/ C.DA COMPUTACAO I": { 
-        "sigla": "fmcc1", "nome": "Fundamentos Matemáticos para Ciência da Computação 1" 
+        "sigla": "fmcc1", 
+        "nome": "Fundamentos Matemáticos para Ciência da Computação 1", 
+        "categoria": "obrigatoria"
+    },
+    "TECC(PROGRAMACAO FUNCIONAL)": {
+        "sigla": "prog-funcional", 
+        "nome": "Programação Funcional", 
+        "categoria": "opt-especifica"
+    },
+    "INGLÊS": {
+        "sigla": "ingles", 
+        "nome": "Inglês", 
+        "categoria": "opt-geral"
     }
 }
