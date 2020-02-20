@@ -1,3 +1,5 @@
 {
-    "FUND DE MATEMATICA P/ C.DA COMPUTACAO I": "fmcc1"
+    "FUND DE MATEMATICA P/ C.DA COMPUTACAO I": { 
+        "sigla": "fmcc1", "nome": "Fundamentos Matemáticos para Ciência da Computação 1" 
+    }
 }

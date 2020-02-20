@@ -1,5 +1,4 @@
 import { readFile } from '.';
-import nomesDasDisciplinas from './disciplinas.json';
 import siglas from './disciplinas-para-siglas.json';
 const CSV_NAME = 'horario20191.csv';
 const data_filename = 'subjects.json';
@@ -37,6 +36,7 @@ const dias = {
 const campo_desconhecido = "desconhecido";
 const bloqueado_para_matricula = "(Bloqueada para matrícula)";
 
+const getDisciplina = disciplina => siglas[disciplina];
 const getDia = dia => dias[dia];
 const getSala = data => data.substring(1, data.length - 1);
 const getHora = data => {
@@ -56,8 +56,8 @@ const formatObject = obj => {
         return { dia, hora };
     });
     
-    let sigla = siglas[disciplina] || campo_desconhecido;
-    let nome = sigla == campo_desconhecido ? disciplina : nomesDasDisciplinas[sigla];
+    let disciplinaSemSigla = { sigla: campo_desconhecido, nome: disciplina };
+    let { sigla, nome } = disciplina in siglas ? getDisciplina(disciplina) : disciplinaSemSigla;
     turma = "t" + parseInt(turma);
     
     return {
