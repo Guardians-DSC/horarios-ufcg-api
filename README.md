@@ -32,3 +32,4 @@ GET    | /horarios/**:dia** | Retorna todos os horários do dia especificado (se
    }
 }
 ```
+meu time é lindu
