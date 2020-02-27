@@ -1,5 +1,5 @@
 import { readFile } from '.';
-import nomesDasDisciplinas from './disciplinas.json'
+import nomesDasDisciplinas from './disciplinas';
 const CSV_NAME = 'horario20201.csv';
 /**
  * Uma funcao de comparacao de horarios.
