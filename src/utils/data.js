@@ -1,6 +1,6 @@
 import { readFile } from '.';
 import nomesDasDisciplinas from './disciplinas.json'
-const CSV_NAME = 'horario20191.csv';
+const CSV_NAME = 'horario20201.csv';
 /**
  * Uma funcao de comparacao de horarios.
  * @param {*} criteria criterio que quer que ordene os horarios
