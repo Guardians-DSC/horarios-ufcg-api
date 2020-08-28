@@ -68,6 +68,15 @@ const buildDisciplina = (horario) => {
 export default () => {
   const disciplinas = [];
 
+  let known = data.map(({ disciplina }) => disciplina);
+  let mapped = Object.keys(disciplinasSiglasMap);
+  let unmapped = known.filter((d) => !mapped.includes(d));
+
+  if (unmapped.length > 0)
+    console.error(
+      "[WARNING] Ainda há disciplinas não mapeadas. Verifique src/importer/json/disciplinas.siglas.js"
+    );
+
   data.forEach((element) => {
     element.horarios.forEach((horario) => {
       let disciplina = buildDisciplina(element);
