@@ -52,18 +52,14 @@ const buildDisciplina = (horario) => {
   const sala = formatSala(horario.sala);
   const turma = formatTurma(horario.turma);
   const sigla = getSigla(nome);
-  const professor = undefined;
-  const periodo_ppc_antigo = undefined;
 
   let newHorario = {
     nome,
     sala,
     disciplina: sigla,
     turma,
-    professor,
     categoria,
-    periodo_ppc_antigo,
-    periodo_ppc_novo: periodo,
+    periodo,
   };
 
   return normalize(newHorario);
