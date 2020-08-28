@@ -110,7 +110,17 @@ function applyQueryFilters(queries) {
   return horariosAndQueryFilters;
 }
 
+function removeDuplicates(array) {
+  return [...new Set(array)];
+}
+
 module.exports = {
+  getHours(req, res) {
+    let hours = horarios.map(({ horario }) => parseInt(horario.hora));
+    hours = removeDuplicates(hours);
+    hours = hours.sort((a, b) => a - b);
+    res.send(hours);
+  },
   /**
    * Funcao que retorna todos os horarios
    */
