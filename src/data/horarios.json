@@ -1,0 +1,919 @@
+[
+  {
+    "periodo": "1",
+    "codigoTurma": "1411311",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO I",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411311",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO I",
+    "horarios": [
+      { "dia": "3", "horario": "20:00-22:00" },
+      { "dia": "6", "horario": "18:00-20:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411174",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "INTRODUÇÃO A COMPUTAÇÃO",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411174",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "INTRODUÇÃO A COMPUTAÇÃO",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411180",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATÓRIO DE PROGRAMAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411180",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATÓRIO DE PROGRAMAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411180",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATÓRIO DE PROGRAMAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411167",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROGRAMAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411167",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROGRAMAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "1",
+    "codigoTurma": "1411167",
+    "turma": "03",
+    "sala": "(RE-08) / (RE-08)",
+    "disciplina": "PROGRAMAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "38/38",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1109126",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "CALCULO DIFERENCIAL E INTEGRAL I",
+    "horarios": [
+      { "dia": "2", "horario": "14:00-16:00" },
+      { "dia": "4", "horario": "16:00-18:00" }
+    ],
+    "oferta": "9/9",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411312",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO II",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "65/65",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411312",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "FUND DE MATEMATICA P/ C.DA COMPUTACAO II",
+    "horarios": [
+      { "dia": "3", "horario": "20:00-22:00" },
+      { "dia": "6", "horario": "18:00-20:00" }
+    ],
+    "oferta": "65/65",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411181",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATÓRIO DE PROGRAMAÇÃO II",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "35/35",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411181",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATÓRIO DE PROGRAMAÇÃO II",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "35/35",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411181",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATÓRIO DE PROGRAMAÇÃO II",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "35/35",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411168",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROGRAMAÇÃO II",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "2",
+    "codigoTurma": "1411168",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROGRAMAÇÃO II",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1109049",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ALGEBRA LINEAR I",
+    "horarios": [
+      { "dia": "3", "horario": "14:00-16:00" },
+      { "dia": "5", "horario": "16:00-18:00" }
+    ],
+    "oferta": "13/13",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1109131",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "CALCULO DIFERENCIAL E INTEGRAL II",
+    "horarios": [
+      { "dia": "2", "horario": "14:00-16:00" },
+      { "dia": "4", "horario": "16:00-18:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411305",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ESTRUTURA DE DADOS",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "4", "horario": "08:00-10:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411305",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ESTRUTURA DE DADOS",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411306",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATORIO DE ESTRUTURA DE DADOS",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411306",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LABORATORIO DE ESTRUTURA DE DADOS",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411307",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LOGICA PARA COMPUTACAO",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411307",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LOGICA PARA COMPUTACAO",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "3",
+    "codigoTurma": "1411304",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "TEORIA DOS GRAFOS",
+    "horarios": [
+      { "dia": "4", "horario": "08:00-10:00" },
+      { "dia": "6", "horario": "10:00-12:00" }
+    ],
+    "oferta": "90/90",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411193",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "BANCO DE DADOS I",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411193",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "BANCO DE DADOS I",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411182",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LAB.DE ORG.E ARQUITETURA DE COMPUTADORES",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411182",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LAB.DE ORG.E ARQUITETURA DE COMPUTADORES",
+    "horarios": [
+      { "dia": "3", "horario": "14:00-16:00" },
+      { "dia": "5", "horario": "16:00-18:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411182",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "LAB.DE ORG.E ARQUITETURA DE COMPUTADORES",
+    "horarios": [
+      { "dia": "3", "horario": "16:00-18:00" },
+      { "dia": "6", "horario": "14:00-16:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411310",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ORGANIZACAO E ARQUIT. DE COMPUTADORES",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "80/80",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411309",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PARADIGMAS DE LINGUAGEM DE PROGRAMACAO",
+    "horarios": [
+      { "dia": "4", "horario": "08:00-10:00" },
+      { "dia": "6", "horario": "10:00-12:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411308",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO DE SOFTWARE",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1411308",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO DE SOFTWARE",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411313",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ANALISE DE SISTEMAS",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "6", "horario": "10:00-12:00" }
+    ],
+    "oferta": "45/45",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411313",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ANALISE DE SISTEMAS",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "45/45",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411314",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ENGENHARIA DE SOFTWARE",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411190",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "REDES DE COMPUTADORES",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411192",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "SISTEMAS OPERACIONAIS",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411192",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "SISTEMAS OPERACIONAIS",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411171",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "TEORIA DA COMPUTAÇÃO",
+    "horarios": [
+      { "dia": "4", "horario": "08:00-10:00" },
+      { "dia": "6", "horario": "10:00-12:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411320",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ADMINISTRACAO DE SISTEMAS",
+    "horarios": [
+      { "dia": "4", "horario": "08:00-10:00" },
+      { "dia": "6", "horario": "10:00-12:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411321",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ALGORITMOS AVANCADOS I",
+    "horarios": [
+      { "dia": "3", "horario": "18:00-20:00" },
+      { "dia": "5", "horario": "20:00-22:00" }
+    ],
+    "oferta": "30/30",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411322",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ALGORITMOS AVANCADOS II",
+    "horarios": [
+      { "dia": "4", "horario": "18:00-20:00" },
+      { "dia": "6", "horario": "20:00-22:00" }
+    ],
+    "oferta": "10/10",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411325",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ARQUITETURA DE SOFTWARE",
+    "horarios": [
+      { "dia": "3", "horario": "14:00-16:00" },
+      { "dia": "5", "horario": "16:00-18:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411328",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ECONOMIA DE TECNOLOGIA DA INFORMACAO",
+    "horarios": [
+      { "dia": "2", "horario": "14:00-16:00" },
+      { "dia": "4", "horario": "16:00-18:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411316",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "INTELIGENCIA ARTIFICIAL",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "60/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411333",
+    "turma": "01",
+    "sala": "(S/S) / undefined",
+    "disciplina": "PRATICA DE ENSINO DE COMPUTACAO I",
+    "horarios": [{ "dia": "2", "horario": "22:00-23:55" }],
+    "oferta": "45/45",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411334",
+    "turma": "01",
+    "sala": "(S/S) / undefined",
+    "disciplina": "PRATICA DE ENSINO DE COMPUTACAO II",
+    "horarios": [{ "dia": "6", "horario": "20:00-22:00" }],
+    "oferta": "35/35",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411335",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PRINCIPIOS DE DESENVOLVIMENTO WEB",
+    "horarios": [
+      { "dia": "3", "horario": "16:00-18:00" },
+      { "dia": "6", "horario": "14:00-16:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411315",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROGRAMACAO CONCORRENTE",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "70/70",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411315",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROGRAMACAO CONCORRENTE",
+    "horarios": [
+      { "dia": "2", "horario": "20:00-22:00" },
+      { "dia": "5", "horario": "18:00-20:00" }
+    ],
+    "oferta": "10/10",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411217",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO DE REDES DE COMPUTADORES",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "25/25",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411339",
+    "turma": "01",
+    "sala": "(LCC3a) / (LCC3a)",
+    "disciplina": "RECUP. DE INFORMACAO E BUSCA NA WEB",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411340",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "SEGURANCA DE SISTEMAS",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411342",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "SISTEMAS DE APOIOA DECISAO",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "35/35",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1411343",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "VERIFICACAO E VALIDACAO DE SOFTWARE",
+    "horarios": [
+      { "dia": "3", "horario": "16:00-18:00" },
+      { "dia": "6", "horario": "14:00-16:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "7",
+    "codigoTurma": "1411187",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ANÁLISE E TÉCNICA DE ALGORITMOS",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "7",
+    "codigoTurma": "1411189",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "COMPILADORES",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "8",
+    "codigoTurma": "1411317",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO DE TRAB. DE CONCLUSAO DE CURSO",
+    "horarios": [
+      { "dia": "3", "horario": "16:00-18:00" },
+      { "dia": "6", "horario": "14:00-16:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Complementar"
+  },
+  {
+    "periodo": "8",
+    "codigoTurma": "1411185",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO EM COMPUTAÇÃO I",
+    "horarios": [
+      { "dia": "2", "horario": "14:00-16:00" },
+      { "dia": "4", "horario": "16:00-18:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "9",
+    "codigoTurma": "1411348",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO EM COMPUTAÇÃO II",
+    "horarios": [
+      { "dia": "3", "horario": "14:00-16:00" },
+      { "dia": "5", "horario": "16:00-18:00" }
+    ],
+    "oferta": "55/55",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "9",
+    "codigoTurma": "1411318",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "TRABALHO DE CONCLUSAO DE CURSO",
+    "horarios": [
+      { "dia": "4", "horario": "14:00-16:00" },
+      { "dia": "6", "horario": "16:00-18:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Complementar"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1301123",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ADMINISTRACAO E EMPREENDEDORISMO",
+    "horarios": [
+      { "dia": "2", "horario": "14:00-16:00" },
+      { "dia": "4", "horario": "16:00-18:00" }
+    ],
+    "oferta": "25/25",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1109035",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ALGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+    "horarios": [
+      { "dia": "3", "horario": "14:00-16:00" },
+      { "dia": "5", "horario": "16:00-18:00" }
+    ],
+    "oferta": "2/2",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1411345",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "INFORMATICA E SOCIEDADE",
+    "horarios": [
+      { "dia": "2", "horario": "16:00-18:00" },
+      { "dia": "4", "horario": "14:00-16:00" }
+    ],
+    "oferta": "40/40",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1307150",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "INGLÊS",
+    "horarios": [
+      { "dia": "3", "horario": "20:20-22:10" },
+      { "dia": "5", "horario": "18:30-20:20" }
+    ],
+    "oferta": "5/5",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1411350",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "TECC(GESTAO DE PROJETOS)",
+    "horarios": [
+      { "dia": "3", "horario": "08:00-10:00" },
+      { "dia": "5", "horario": "10:00-12:00" }
+    ],
+    "oferta": "35/35",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1411357",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "TECC(GOVERNANCA DA INTERNET)",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "50/50",
+    "tipo": "Optativa"
+  }
+]
