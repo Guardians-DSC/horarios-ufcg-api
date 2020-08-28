@@ -54,6 +54,12 @@ const disciplinasSiglasMap = {
   "TECC(JOGOS DIGITAIS)": "jogos-digitais",
   "TECC(PROGRAMACAO FUNCIONAL)": "funcional",
   "TECC(PROJETO DE SISTEMAS OPERACIONAIS)": "proj-so",
+  "TECC(PERCEPCAO COMPUTACIONAL": "percepcao",
+  "INTRODUÇÃO À PROBABILIDADE": "probabilidade",
+  "ESTATISTICA APLICADA": "estatistica",
+  "METODOLOGIA CIENTÍFICA": "metodologia",
+  "DIREITO E CIDADANIA": "direito",
+  "ECONOMIA": "economia",
 };
 
 export default disciplinasSiglasMap;

@@ -9,7 +9,7 @@
       { "dia": "3", "horario": "10:00-12:00" },
       { "dia": "6", "horario": "08:00-10:00" }
     ],
-    "oferta": "60/60",
+    "oferta": "0/60",
     "tipo": "Obrigatória"
   },
   {
@@ -22,7 +22,7 @@
       { "dia": "3", "horario": "20:00-22:00" },
       { "dia": "6", "horario": "18:00-20:00" }
     ],
-    "oferta": "60/60",
+    "oferta": "39/60",
     "tipo": "Obrigatória"
   },
   {
@@ -35,7 +35,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "55/55",
+    "oferta": "9/55",
     "tipo": "Obrigatória"
   },
   {
@@ -48,7 +48,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "55/55",
+    "oferta": "16/55",
     "tipo": "Obrigatória"
   },
   {
@@ -61,7 +61,7 @@
       { "dia": "2", "horario": "10:00-12:00" },
       { "dia": "5", "horario": "08:00-10:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "5/40",
     "tipo": "Obrigatória"
   },
   {
@@ -74,7 +74,7 @@
       { "dia": "2", "horario": "10:00-12:00" },
       { "dia": "5", "horario": "08:00-10:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "2/40",
     "tipo": "Obrigatória"
   },
   {
@@ -87,7 +87,7 @@
       { "dia": "2", "horario": "10:00-12:00" },
       { "dia": "5", "horario": "08:00-10:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "25/40",
     "tipo": "Obrigatória"
   },
   {
@@ -100,7 +100,7 @@
       { "dia": "2", "horario": "08:00-10:00" },
       { "dia": "4", "horario": "10:00-12:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "2/40",
     "tipo": "Obrigatória"
   },
   {
@@ -113,20 +113,20 @@
       { "dia": "2", "horario": "08:00-10:00" },
       { "dia": "4", "horario": "10:00-12:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "5/40",
     "tipo": "Obrigatória"
   },
   {
     "periodo": "1",
     "codigoTurma": "1411167",
     "turma": "03",
-    "sala": "(RE-08) / (RE-08)",
+    "sala": "(S/S) / (S/S)",
     "disciplina": "PROGRAMAÇÃO I",
     "horarios": [
       { "dia": "2", "horario": "08:00-10:00" },
       { "dia": "4", "horario": "10:00-12:00" }
     ],
-    "oferta": "38/38",
+    "oferta": "23/38",
     "tipo": "Obrigatória"
   },
   {
@@ -139,7 +139,7 @@
       { "dia": "2", "horario": "14:00-16:00" },
       { "dia": "4", "horario": "16:00-18:00" }
     ],
-    "oferta": "9/9",
+    "oferta": "0/9",
     "tipo": "Obrigatória"
   },
   {
@@ -243,7 +243,7 @@
       { "dia": "3", "horario": "14:00-16:00" },
       { "dia": "5", "horario": "16:00-18:00" }
     ],
-    "oferta": "13/13",
+    "oferta": "0/13",
     "tipo": "Obrigatória"
   },
   {
@@ -256,7 +256,7 @@
       { "dia": "2", "horario": "14:00-16:00" },
       { "dia": "4", "horario": "16:00-18:00" }
     ],
-    "oferta": "30/30",
+    "oferta": "0/30",
     "tipo": "Obrigatória"
   },
   {
@@ -267,7 +267,7 @@
     "disciplina": "ESTRUTURA DE DADOS",
     "horarios": [
       { "dia": "2", "horario": "10:00-12:00" },
-      { "dia": "4", "horario": "08:00-10:00" }
+      { "dia": "5", "horario": "08:00-10:00" }
     ],
     "oferta": "70/70",
     "tipo": "Obrigatória"
@@ -373,7 +373,20 @@
       { "dia": "3", "horario": "10:00-12:00" },
       { "dia": "6", "horario": "08:00-10:00" }
     ],
-    "oferta": "50/50",
+    "oferta": "48/50",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "4",
+    "codigoTurma": "1114129",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "INTRODUÇÃO À PROBABILIDADE",
+    "horarios": [
+      { "dia": "2", "horario": "10:00-12:00" },
+      { "dia": "5", "horario": "08:00-10:00" }
+    ],
+    "oferta": "0/21",
     "tipo": "Obrigatória"
   },
   {
@@ -475,7 +488,7 @@
     "disciplina": "ANALISE DE SISTEMAS",
     "horarios": [
       { "dia": "2", "horario": "08:00-10:00" },
-      { "dia": "6", "horario": "10:00-12:00" }
+      { "dia": "4", "horario": "10:00-12:00" }
     ],
     "oferta": "45/45",
     "tipo": "Obrigatória"
@@ -508,6 +521,19 @@
   },
   {
     "periodo": "5",
+    "codigoTurma": "1114222",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ESTATISTICA APLICADA",
+    "horarios": [
+      { "dia": "2", "horario": "14:00-16:00" },
+      { "dia": "4", "horario": "16:00-18:00" }
+    ],
+    "oferta": "10/30",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
     "codigoTurma": "1411190",
     "turma": "01",
     "sala": "(S/S) / (S/S)",
@@ -516,7 +542,20 @@
       { "dia": "3", "horario": "10:00-12:00" },
       { "dia": "6", "horario": "08:00-10:00" }
     ],
-    "oferta": "60/60",
+    "oferta": "58/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "5",
+    "codigoTurma": "1411190",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "REDES DE COMPUTADORES",
+    "horarios": [
+      { "dia": "3", "horario": "20:00-22:00" },
+      { "dia": "6", "horario": "18:00-20:00" }
+    ],
+    "oferta": "0/1",
     "tipo": "Obrigatória"
   },
   {
@@ -529,7 +568,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "30/30",
+    "oferta": "29/30",
     "tipo": "Obrigatória"
   },
   {
@@ -568,7 +607,7 @@
       { "dia": "4", "horario": "08:00-10:00" },
       { "dia": "6", "horario": "10:00-12:00" }
     ],
-    "oferta": "30/30",
+    "oferta": "22/30",
     "tipo": "Optativa"
   },
   {
@@ -581,7 +620,7 @@
       { "dia": "3", "horario": "18:00-20:00" },
       { "dia": "5", "horario": "20:00-22:00" }
     ],
-    "oferta": "30/30",
+    "oferta": "26/30",
     "tipo": "Optativa"
   },
   {
@@ -607,7 +646,7 @@
       { "dia": "3", "horario": "14:00-16:00" },
       { "dia": "5", "horario": "16:00-18:00" }
     ],
-    "oferta": "70/70",
+    "oferta": "63/70",
     "tipo": "Optativa"
   },
   {
@@ -620,7 +659,7 @@
       { "dia": "2", "horario": "14:00-16:00" },
       { "dia": "4", "horario": "16:00-18:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "33/40",
     "tipo": "Optativa"
   },
   {
@@ -633,7 +672,20 @@
       { "dia": "3", "horario": "10:00-12:00" },
       { "dia": "6", "horario": "08:00-10:00" }
     ],
-    "oferta": "60/60",
+    "oferta": "56/60",
+    "tipo": "Obrigatória"
+  },
+  {
+    "periodo": "6",
+    "codigoTurma": "1305218",
+    "turma": "03",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "METODOLOGIA CIENTÍFICA",
+    "horarios": [
+      { "dia": "2", "horario": "08:00-10:00" },
+      { "dia": "4", "horario": "10:00-12:00" }
+    ],
+    "oferta": "59/60",
     "tipo": "Obrigatória"
   },
   {
@@ -653,7 +705,7 @@
     "sala": "(S/S) / undefined",
     "disciplina": "PRATICA DE ENSINO DE COMPUTACAO II",
     "horarios": [{ "dia": "6", "horario": "20:00-22:00" }],
-    "oferta": "35/35",
+    "oferta": "34/35",
     "tipo": "Optativa"
   },
   {
@@ -666,7 +718,7 @@
       { "dia": "3", "horario": "16:00-18:00" },
       { "dia": "6", "horario": "14:00-16:00" }
     ],
-    "oferta": "50/50",
+    "oferta": "33/50",
     "tipo": "Optativa"
   },
   {
@@ -679,7 +731,7 @@
       { "dia": "2", "horario": "10:00-12:00" },
       { "dia": "5", "horario": "08:00-10:00" }
     ],
-    "oferta": "70/70",
+    "oferta": "50/70",
     "tipo": "Obrigatória"
   },
   {
@@ -692,7 +744,7 @@
       { "dia": "2", "horario": "20:00-22:00" },
       { "dia": "5", "horario": "18:00-20:00" }
     ],
-    "oferta": "10/10",
+    "oferta": "3/10",
     "tipo": "Obrigatória"
   },
   {
@@ -705,7 +757,7 @@
       { "dia": "3", "horario": "10:00-12:00" },
       { "dia": "6", "horario": "08:00-10:00" }
     ],
-    "oferta": "25/25",
+    "oferta": "23/25",
     "tipo": "Optativa"
   },
   {
@@ -718,7 +770,7 @@
       { "dia": "2", "horario": "08:00-10:00" },
       { "dia": "4", "horario": "10:00-12:00" }
     ],
-    "oferta": "50/50",
+    "oferta": "46/50",
     "tipo": "Optativa"
   },
   {
@@ -731,7 +783,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "55/55",
+    "oferta": "46/55",
     "tipo": "Optativa"
   },
   {
@@ -744,7 +796,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "35/35",
+    "oferta": "34/35",
     "tipo": "Optativa"
   },
   {
@@ -757,7 +809,7 @@
       { "dia": "3", "horario": "16:00-18:00" },
       { "dia": "6", "horario": "14:00-16:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "31/40",
     "tipo": "Optativa"
   },
   {
@@ -770,7 +822,7 @@
       { "dia": "3", "horario": "10:00-12:00" },
       { "dia": "6", "horario": "08:00-10:00" }
     ],
-    "oferta": "55/55",
+    "oferta": "51/55",
     "tipo": "Obrigatória"
   },
   {
@@ -783,7 +835,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "37/40",
     "tipo": "Obrigatória"
   },
   {
@@ -813,6 +865,19 @@
     "tipo": "Obrigatória"
   },
   {
+    "periodo": "8",
+    "codigoTurma": "1411185",
+    "turma": "02",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "PROJETO EM COMPUTAÇÃO I",
+    "horarios": [
+      { "dia": "4", "horario": "18:00-20:00" },
+      { "dia": "6", "horario": "20:00-22:00" }
+    ],
+    "oferta": "2/2",
+    "tipo": "Obrigatória"
+  },
+  {
     "periodo": "9",
     "codigoTurma": "1411348",
     "turma": "01",
@@ -822,7 +887,7 @@
       { "dia": "3", "horario": "14:00-16:00" },
       { "dia": "5", "horario": "16:00-18:00" }
     ],
-    "oferta": "55/55",
+    "oferta": "30/55",
     "tipo": "Obrigatória"
   },
   {
@@ -835,7 +900,7 @@
       { "dia": "4", "horario": "14:00-16:00" },
       { "dia": "6", "horario": "16:00-18:00" }
     ],
-    "oferta": "50/50",
+    "oferta": "16/50",
     "tipo": "Complementar"
   },
   {
@@ -848,7 +913,7 @@
       { "dia": "2", "horario": "14:00-16:00" },
       { "dia": "4", "horario": "16:00-18:00" }
     ],
-    "oferta": "25/25",
+    "oferta": "4/25",
     "tipo": "Optativa"
   },
   {
@@ -861,7 +926,33 @@
       { "dia": "3", "horario": "14:00-16:00" },
       { "dia": "5", "horario": "16:00-18:00" }
     ],
-    "oferta": "2/2",
+    "oferta": "0/2",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1305219",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "DIREITO E CIDADANIA",
+    "horarios": [
+      { "dia": "3", "horario": "10:00-12:00" },
+      { "dia": "6", "horario": "08:00-10:00" }
+    ],
+    "oferta": "42/50",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1303021",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "ECONOMIA",
+    "horarios": [
+      { "dia": "3", "horario": "16:00-18:00" },
+      { "dia": "6", "horario": "14:00-16:00" }
+    ],
+    "oferta": "0/13",
     "tipo": "Optativa"
   },
   {
@@ -872,9 +963,9 @@
     "disciplina": "INFORMATICA E SOCIEDADE",
     "horarios": [
       { "dia": "2", "horario": "16:00-18:00" },
-      { "dia": "4", "horario": "14:00-16:00" }
+      { "dia": "5", "horario": "14:00-16:00" }
     ],
-    "oferta": "40/40",
+    "oferta": "0/40",
     "tipo": "Optativa"
   },
   {
@@ -887,7 +978,7 @@
       { "dia": "3", "horario": "20:20-22:10" },
       { "dia": "5", "horario": "18:30-20:20" }
     ],
-    "oferta": "5/5",
+    "oferta": "0/5",
     "tipo": "Optativa"
   },
   {
@@ -900,7 +991,7 @@
       { "dia": "3", "horario": "08:00-10:00" },
       { "dia": "5", "horario": "10:00-12:00" }
     ],
-    "oferta": "35/35",
+    "oferta": "25/35",
     "tipo": "Optativa"
   },
   {
@@ -913,7 +1004,20 @@
       { "dia": "2", "horario": "10:00-12:00" },
       { "dia": "5", "horario": "08:00-10:00" }
     ],
-    "oferta": "50/50",
+    "oferta": "40/50",
+    "tipo": "Optativa"
+  },
+  {
+    "periodo": "",
+    "codigoTurma": "1411352",
+    "turma": "01",
+    "sala": "(S/S) / (S/S)",
+    "disciplina": "TECC(PERCEPCAO COMPUTACIONAL",
+    "horarios": [
+      { "dia": "3", "horario": "16:00-18:00" },
+      { "dia": "6", "horario": "14:00-16:00" }
+    ],
+    "oferta": "30/30",
     "tipo": "Optativa"
   }
 ]
