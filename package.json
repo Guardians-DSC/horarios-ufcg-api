@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rm -rf build && mkdir build",
     "build-server": "babel -d ./build ./src -s",
-    "build": "npm run clean && npm run build-server",
+    "import-json": "mkdir build/data && cp src/data/* build/data/",
+    "build": "npm run clean && npm run build-server && npm run import-json",
     "start": "node ./build/index.js",
     "dev": "nodemon --exec babel-node src/index.js",
     "check-lint": "eslint --ext .js --ignore-path .gitignore .",
