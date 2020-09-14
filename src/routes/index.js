@@ -8,7 +8,7 @@ routes.get('/', (request, response) => {
         message: 'Hello World! 🌎',
     });
 });
-routes.use('/', horariosRouter);
+routes.use('/horarios', horariosRouter);
 
 
 export default routes;
