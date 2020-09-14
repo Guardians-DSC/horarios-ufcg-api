@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from 'fs';
 
 /**
  * Uma funcao de comparacao de horarios.
@@ -6,15 +6,15 @@ import fs from "fs";
  * @param {*} order ordem crescente (1) ou decrescente (-1)
  */
 const sortBy = (criteria, order) => {
-  return function (a, b) {
-    if (a[criteria] < b[criteria]) {
-      return -1 * order;
-    }
-    if (a[criteria] > b[criteria]) {
-      return 1 * order;
-    }
-    return 0;
-  };
+    return function (a, b) {
+        if (a[criteria] < b[criteria]) {
+            return -1 * order;
+        }
+        if (a[criteria] > b[criteria]) {
+            return 1 * order;
+        }
+        return 0;
+    };
 };
 
 /**
@@ -22,11 +22,11 @@ const sortBy = (criteria, order) => {
  * @param {string} path Caminho para o arquivo .csv
  */
 const readFile = function (path) {
-  var fileContent;
-  return new Promise(function (resolve) {
-    fileContent = fs.readFileSync(path, { encoding: "utf8" });
-    resolve(fileContent);
-  });
+    var fileContent;
+    return new Promise(function (resolve) {
+        fileContent = fs.readFileSync(path, { encoding: 'utf8' });
+        resolve(fileContent);
+    });
 };
 
 export { readFile, sortBy };

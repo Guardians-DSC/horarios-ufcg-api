@@ -1,14 +1,14 @@
-import loadFromJSON from "./json";
+import loadFromJSON from './json';
 
-const source = "json";
+const source = 'json';
 
 const importHorarios = () => {
-  switch (source) {
-    case "json":
-      return loadFromJSON();
+    switch (source) {
+    case 'json':
+        return loadFromJSON();
     default:
-      return [];
-  }
+        return [];
+    }
 };
 
 export default importHorarios;

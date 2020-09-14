@@ -1,12 +1,12 @@
-import express from "express";
-import HorarioController from "./controllers/HorarioController";
+import express from 'express';
+import HorarioController from './controllers/HorarioController';
 
 const router = express.Router();
 /**
  * Rota para listagem de todos os horarios
  */
-router.get("/", HorarioController.indexAll);
+router.get('/', HorarioController.indexAll);
 
-router.get("/horas/", HorarioController.getHours);
+router.get('/horas/', HorarioController.getHours);
 
 module.exports = router;
